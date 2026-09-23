@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7faff" />
+    <meta name="description" content="Veyro — Voice Enabled Yare Real-time Operations — turns payment notifications on your Android phone into clear, local voice alerts for your business." />
+    <title>Veyro — Voice Enabled Yare Real-time Operations</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png" />
+    <link rel="apple-touch-icon" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <style>.brand-logo{width:29px;height:29px;object-fit:contain}.phone-logo{width:19px;height:19px;object-fit:contain}.footer-links{display:inline-flex;gap:15px}.footer-link{color:#526c85;font-size:12px;text-decoration:none}.footer-link:hover{color:#056df6}html[data-theme=dark] .footer-link{color:#a9bfd4}</style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Veyro home">
+        <img class="brand-logo" src="logo.png" alt="" />
+        <span>veyro</span>
+      </a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true"><svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg></span>
+        <span class="theme-label">Dark</span>
+      </button>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Features</a>
+        <a href="privacy.html">Privacy</a>
+        <a class="nav-cta" href="#get-started">Get Veyro <span>→</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Voice Enabled Yare Real-time Operations</p>
+          <h1>Never miss a<br /><em>payment</em> again.</h1>
+          <p class="hero-text">Veyro listens for payment notifications on your Android phone and announces high-confidence incoming payments out loud — so you can stay focused on your customers.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#get-started">Get Veyro <span>→</span></a>
+            <a class="button text-button" href="#how-it-works">See how it works <span>↓</span></a>
+          </div>
+          <div class="trust-line"><span class="check">✓</span> Your payment data stays on your phone</div>
+        </div>
+        <div class="hero-visual" aria-label="Veyro payment announcement preview">
+          <div class="halo halo-one"></div><div class="halo halo-two"></div>
+          <div class="phone">
+            <div class="phone-top"><span class="time">10:42</span><span class="camera"></span><span class="signal">● ● ●</span></div>
+            <div class="phone-body">
+              <div class="app-title"><img class="phone-logo" src="logo.png" alt="" /><b>veyro</b><span class="live">● LIVE</span></div>
+              <p class="list-label">LISTENING FOR PAYMENTS</p>
+              <div class="sound-card"><div class="sound-ring">⌁</div><div><small>Payment received</small><strong>₹ 1,250</strong><span>from Anjali Sharma</span></div></div>
+              <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="spoken"><span>♬</span> “Payment of ₹1,250 received”</div>
+              <div class="today"><span>Today</span><b>₹ 8,460</b><small>12 payments received</small></div>
+            </div>
+          </div>
+          <div class="float-chip chip-one"><span>✓</span> Payment detected</div>
+          <div class="float-chip chip-two"><span>◉</span> Speaks instantly</div>
+        </div>
+      </section>
+
+      <section class="logo-strip" aria-label="Supported payment sources">
+        <p>Works with popular payment apps</p>
+        <div><span>G<span class="google">Pay</span></span><span class="phonepe">पे</span><span class="paytm">paytm</span><span class="bhim">BHIM <small>UPI</small></span><span class="banks">+ Bank apps</span></div>
+      </section>
+
+      <section class="section how" id="how-it-works">
+        <div class="section-heading"><p class="eyebrow">SIMPLE BY DESIGN</p><h2>From payment to <span>“received”</span><br />in seconds.</h2></div>
+        <div class="steps">
+          <article><span class="step-number">01</span><div class="step-icon notification">⌁</div><h3>A payment arrives</h3><p>Your payment app posts a notification, just as it normally would.</p></article>
+          <article><span class="step-number">02</span><div class="step-icon shield">✓</div><h3>Veyro checks it</h3><p>On-device rules identify high-confidence incoming payment alerts.</p></article>
+          <article><span class="step-number">03</span><div class="step-icon speaker">◖</div><h3>You hear it</h3><p>A clear voice announcement lets you know while you keep serving.</p></article>
+        </div>
+      </section>
+
+      <section class="feature-band" id="features">
+        <div class="feature-illustration"><div class="orbit o1"></div><div class="orbit o2"></div><div class="speaker-box"><div class="speaker-dot"></div><div class="speaker-wave"><i></i><i></i><i></i></div></div><div class="sound-label">Payment received</div></div>
+        <div class="feature-copy"><p class="eyebrow">BUILT FOR THE COUNTER</p><h2>Your phone becomes<br />your <span>smart speaker.</span></h2><p>There’s no new hardware to buy. Veyro works with the Android phone you already have and plays through its normal media output, including a connected Bluetooth speaker when Android routes audio there.</p><a href="privacy.html" class="inline-link">Made with privacy in mind <span>→</span></a></div>
+      </section>
+
+      <section class="section benefits" id="privacy">
+        <div class="section-heading centered"><p class="eyebrow">QUIETLY POWERFUL</p><h2>Everything you need,<br /><span>nothing you don’t.</span></h2></div>
+        <div class="benefit-grid">
+          <article><div class="benefit-icon">⌁</div><h3>Instant announcements</h3><p>Hear a payment alert as soon as a matching notification arrives.</p></article>
+          <article><div class="benefit-icon">◎</div><h3>Local by default</h3><p>Detection and speech happen on your device. Payment notifications are not sent to a cloud service.</p></article>
+          <article><div class="benefit-icon">अ</div><h3>Speak your language</h3><p>Choose from languages available in your phone’s text-to-speech engine.</p></article>
+          <article><div class="benefit-icon">▥</div><h3>Know your day</h3><p>See your local payment history and simple daily payment totals.</p></article>
+        </div>
+      </section>
+
+      <section class="faq section">
+        <div><p class="eyebrow">GOOD TO KNOW</p><h2>A few honest answers.</h2></div>
+        <div class="faq-list">
+          <details open><summary>Does Veyro verify bank settlements?<span>+</span></summary><p>No. Veyro announces notifications that match its on-device rules; it is not a bank-verified payment terminal. Always verify high-value payments in the payment or banking app.</p></details>
+          <details><summary>What does Veyro need access to?<span>+</span></summary><p>It needs Android Notification Access to read payment notifications you choose to share. You can turn this access off at any time in Android settings.</p></details>
+          <details><summary>Will it work with a Bluetooth speaker?<span>+</span></summary><p>Veyro uses normal Android media playback. If Android routes media to your connected Bluetooth speaker, announcements play there too.</p></details>
+        </div>
+      </section>
+
+      <section class="cta" id="get-started">
+        <div class="cta-glow"></div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Let every payment<br />be <em>heard.</em></h2><p>Set up Veyro on your Android phone in minutes.</p><a class="button light" href="mailto:hello@veyro.app?subject=I%20want%20Veyro">Get Veyro <span>→</span></a><small>Android only · Payment notification access required</small>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><img class="brand-logo" src="logo.png" alt="" /><span>veyro</span></a><p>Voice Enabled Yare Real-time Operations.</p><span class="footer-links"><a class="footer-link" href="privacy.html">Privacy Policy</a><a class="footer-link" href="terms.html">Terms &amp; Conditions</a></span><span>© <span id="year"></span> Veyro</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
